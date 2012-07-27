@@ -1,12 +1,18 @@
 #include <stdio.h>
+#include <string.h>
+
 
 int main()
 {
-	int a = 10;
-	int *p = &a;
-	int *q;
-	q = &a;
-	//*q = a;
-	printf("%d\t%d\t\n", *p, *q);
+	FILE *f1;
+	f1 = fopen("test.txt", "r");
+	char s[100], *p;
+	
+        p = fgets(s, 4, f1);
+	printf("%s\n", p);
+	printf("%s\n", s);
+        p = fgets(s, 8, f1);
+	printf("%s\n", p);
+
 	return 0;
 }	

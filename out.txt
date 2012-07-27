@@ -1,0 +1,31 @@
+请输入5位加密密码：
+Read size:13
+Before encode:
+hello world!
+
+After encode:
+dbjsj tmygz!
+
+After reverse:
+
+!zgymt jsjbd
+加密成功！
+请输入5位解密密码：
+Read size:1
+zheshi duandian Before encode:
+
+
+After reverse:
+
+
+After encode:
+
+
+Read size:12
+zheshi duandian Before encode:
+!zgymt jsjbd
+After reverse:
+dbjsj tmygz!
+After encode:
+hello world!
+解密成功！
